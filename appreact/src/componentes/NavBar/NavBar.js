@@ -1,6 +1,7 @@
 import "./NavBar.css"
+import CardWidget from "../CartWidget/CardWidget"
 
-const NavBar = () => {
+const NavBar = (props) => {
     const src = "https://bellottisrl.com.ar/wp-content/uploads/2019/05/logo_Bellotti_cont-1.png"
     return (
         <nav>
@@ -16,7 +17,11 @@ const NavBar = () => {
                 <button>Compras</button>
                 <button>Productos</button>
             </div>
+
+            
+            <CardWidget/>
         </nav>
+
     )
 }
 
